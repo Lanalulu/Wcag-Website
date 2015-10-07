@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="Flexslider2/css/flexslider.css" type="text/css" media="screen" />
+<link href="Lightbox/css/lightbox.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ <script defer src="Flexslider2/js/jquery.flexslider.js"></script>
+
+<title>Wood County Automatic Gas</title>
+</head>
+<body>
+
+<div class="container">
+<div id="content">
+	<a href="#" class="logo"><img src="images/wcag.png" alt="Wcag, Inc."/></a><h1><em>Wood County Automatic Gas</em></h1>
+	<ul>
+		<li><a href="https://www.facebook.com/wcaginc" class="facebook" target="_blank"><img src="images/facebook.png" width="100" alt="Visit us on Facebook"/></a></li>
+		<li><a href="#" class="contact hover">Contact</a></li>
+		<li><a href="#" class="services hover">Services</a></li>		
+		<li><a href="#" class="team hover">Team</a></li>
+	</ul>
+</div>
+
+<div id="content_welcome">
+	<div class="owner"><img src="images/owner.jpg" width="500" alt="Owner of Wcag"/>
+	<p class="smaller_font"><em>Family-owned and operated for more than 60 years</em></p></div>
+	<h2><em>Propane</em></h2>
+	<hr width="300"></hr>
+	<p>Wcag is a family-owned business, providing propane to Wood County and the surrounding areas for more than 65 years. We deliver propane to residential, commercial, and agricultural customers in addition to installing propane appliances and piping for new locations.</p>
+</div>
+
+<div class="flexslider">
+  	<ul class="slides">
+		<li><img src="Flexslider2/images/team.jpg"/></li>
+		<li><img src="Flexslider2/images/truck.jpg"/></li>
+		<li><img src="Flexslider2/images/paint.jpg"/></li>
+	</ul>
+</div>
+
+<div id="content_services">
+	<h2><em>Services</em></h2>
+	<hr width="300"></hr>
+	<ul>
+		<li>Automatic route delivery</li>
+		<li>Bottle filling</li>
+		<li>Tank rentals</li>
+	</ul>
+	<ul class="right">
+		<li>Installations and repairs</li>
+		<li>Gas piping for homes & fireplaces</li>
+		<li>Safety inspections</li>
+	</ul>
+<div class="photos">
+<a href="images/waterheater.jpg" data-lightbox="waterheater" data-title="Installing a tankless water heater" rel="lightbox[services]"><img src="Lightbox/images/thumbnail.jpg" class="nthchild"/></a>
+<a href="images/waterheater2.jpg" data-lightbox="waterheater2" data-title="Water heater installation in residential attic" rel="lightbox[services]"><img src="Lightbox/images/thumbnail2.jpg"/></a>
+<a href="images/pillar.jpg" data-lightbox="pillar" data-title="Gas pillar light installation at new house" rel="lightbox[services]"><img src="Lightbox/images/thumbnail3.jpg"/></a>
+<a href="images/grill.jpg" data-lightbox="grill" data-title="Gas grill installation" rel="lightbox[services]"><img src="Lightbox/images/thumbnail4.jpg"/></a>
+<a href="images/painttank.jpg" data-lightbox="paint_tank" data-title="Painted 2,500 gallon tank for commercial location" rel="lightbox[services]"><img src="Lightbox/images/thumbnail5.jpg"/></a>
+<a href="images/generator.jpg" data-lightbox="generator" data-title="Generator hookup" rel="lightbox[services]"><img src="Lightbox/images/thumbnail6.jpg"/></a>
+</div>
+</div>
+
+<div id="content_contact">
+	<h2><em>Contact</em></h2>
+	<hr width="300"></hr>
+	<p><img src="images/building.png" alt="building" width="32"/><span style="font-weight: bold">Address:</span> 209 E Goode St.</p>
+	<p class="post_align">Quitman, TX 75783</p>
+	<p><img src="images/post.png" alt="Mailing Address" width="32"/><span style="font-weight: bold">Postal:</span> P.O. Box 935</p>
+	<p class="post_align">Quitman, TX 75783</p>
+	<p><img src="images/phone.png" width="32" alt="phone"/><span style="font-weight: bold">Phone:</span><span style="color:#CC297A"> (903) 763-4000</span></p>
+	<p><img src="images/truck.png" width="32" alt="truck"/><span style="font-weight: bold">Emergency:</span> (903) 763-4054</p>
+	<p><img src="images/email.png" width="32" alt="email"/><span style="font-weight: bold">Email:</span> wcag@wcaginc.com</p>
+	<p><img src="images/clock.png" width="32" alt="clock"/><span style="font-weight: bold">Hours:</span> 8:00am - 4:30pm</p>
+<div id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3353.8870613648314!2d-95.449666!3d32.79525374361234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59bf36af7fb13cd9!2sWood+County+Automatic+Gas+Co!5e0!3m2!1sen!2sus!4v1442639782392" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+<p><em>One block from the Court House, across from the library.</em></p>
+</div>
+</div>
+
+<div id="footer">O p e n &nbsp;M o n - F r i , &nbsp;8 : 0 0 a m &nbsp;t o &nbsp;4 : 3 0 p m &nbsp;| &nbsp;<span style="color: #1975FF">E m a i l : &nbsp;w c a g @ w c a g i n c . c o m</span> &nbsp;| &nbsp;P h o n e : &nbsp;( 9 0 3 ) &nbsp;7 6 3 - 4 0 0 0</div></div>
+
+<script>
+
+$(document).ready(function() {
+
+	$('.logo').click(function() {
+		$('#content_services').hide();
+		$('.flexslider').hide();
+		$('#content_mappy').hide();
+		$('#content_contact').hide();
+		$('#map').hide();
+		$('#content_welcome').show();
+});
+
+	$('.team').click(function() {
+		$('#content_welcome').hide();
+		$('#content_services').hide();
+		$('#content_mappy').hide();
+		$('#content_contact').hide();
+		$('#map').hide();
+		$('.flexslider').flexslider({
+    		animation: "slide"
+  		});
+		$('.flexslider').show();
+});
+
+	$('.services').click(function() {
+		$('#content_welcome').hide();
+		$('.flexslider').hide();
+		$('#content_mappy').hide();
+		$('#content_contact').hide();
+		$('#map').hide();
+		$('#content_services').show();
+});
+
+	$('.contact').click(function() {
+		$('#content_welcome').hide();
+		$('.flexslider').hide();
+		$('#content_services').hide();
+		$('#content_contact').show();
+		$('#map').show();
+});
+
+
+ lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+	'alwaysShowNavOnTouchDevices': true,
+	'positionFromTop': 70
+    })
+
+});
+
+</script>
+
+<script src="Lightbox/js/lightbox.js"></script>
+</body>
+</html>
